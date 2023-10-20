@@ -1,0 +1,55 @@
+.TableCell {
+    padding: 0.5rem 2rem 0.5rem 0;
+    font-weight: var(--font-weight-medium);
+    display: grid;
+    gap: 0.7rem;
+    align-content: start;
+
+    &Capitalize {
+        font-weight: var(--font-weight-medium);
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+
+    &Mail {
+        font-weight: var(--font-weight-medium);
+        font-size: 1rem;
+    }
+
+    &Date {
+        font-weight: var(--font-weight-light);
+        font-size: 0.80rem;
+        color: var(--gray);
+    }
+
+    &Position {
+        font-weight: var(--font-weight-light);
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+
+    &Total {
+        font-weight: var(--font-weight-bold);
+        font-size: 1rem;
+    }
+
+    &Message {
+        font-weight: var(--font-weight-light);
+        font-size: 0.80rem;
+        color: var(--gray);
+
+        &::first-letter {
+            text-transform: capitalize;
+        }
+
+        &Error {
+            font-weight: var(--font-weight-light);
+            font-size: 0.80rem;
+            color: var(--error);
+
+            &::first-letter {
+                text-transform: capitalize;
+            }
+        }
+    }
+}

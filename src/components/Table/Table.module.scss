@@ -1,0 +1,9 @@
+.Table {
+
+    &Header {
+        position: sticky;
+        top: 0;
+        background-color: var(--light);
+        padding-top: 2rem;
+    }
+}

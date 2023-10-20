@@ -1,0 +1,9 @@
+.TableHeadline {
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+    padding-bottom: 1rem;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}

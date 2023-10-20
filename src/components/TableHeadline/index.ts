@@ -1,0 +1,1 @@
+export { TableHeadline } from './TableHeadline'

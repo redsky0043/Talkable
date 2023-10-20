@@ -1,0 +1,15 @@
+.TableHead {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    padding: 0 0 1rem 0;
+    margin-bottom: 1rem;
+
+    &Cell {
+        padding: 0.5rem 2rem 0.5rem 0;
+        font-weight: var(--font-weight-medium);
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+}
